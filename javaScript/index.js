@@ -10,20 +10,26 @@ const fechdata = position => {
         .then(data => console.log (data))
 }
 
-const setWeatherData = data => {}
+const setWeatherData = data => {
     const weatherData = {
-        location: data.name,
-        description: data.weather[0].main,
-        humidity: data.main.humidity,
-        pressure: data.main.pressure,
-        temperature: Math.floor(data.main.temp),
+        location: data?.name || "",
+        description: data?.weather[0]?.main || "",
+        humidity: data?.main?.humidity || 0,
+        pressure: data?.main?.pressure || 0,
+        temperature: Math.floor(data?.main?.temp) || 0,
         date: getDate(),
-    }
-
-    Object.keys(weatherData).forEach( key => {
-        setTextContent(key, weatherData[key]);
-    });
+    };
     
+    // Resto del código...
+};
+
+
+function setTextContent(key, value) {
+    const element = document.getElementById(key);
+    if (element) {
+      element.textContent = value;
+        }
+    }
     cleanUp();
 
 
@@ -40,9 +46,9 @@ const getDate = () => {
     return `${date.getDate()}-${ ('0' + (date.getMonth() + 1)).slice(-2)}-${date.getFullYear()}`;
 }
 
-const setTextContent = (element, text) => {
-    document.getElementById(element).textContent = text;
-}
+Object.keys(weatherData).forEach(key => {
+    setTextContent(key, weatherData[key]);
+});
 
     
     
