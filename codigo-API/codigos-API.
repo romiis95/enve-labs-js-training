@@ -1,0 +1,69 @@
+    Que es una api?
+
+Las API son mecanismos que permiten a dos componentes de software cominicarse entre si mendiante un conjunto de definiciones y protocolos. Por ejemplo, el sistema de software del intituto de meteorologia contiene datos meteorologicos diarios. La aplicacion meteorologia de su telefono "habla" con este sistema atraves de las API y l emuestra las actualizaciones meteorologicas diarias en su telefono.
+
+    Que significa API?
+
+api SIGNIFICA "interfaz de programacion de aplicaciones". En el contexto de las API, la palabra aplicacion se refiere a cualquier software con una funcion distinta. La interfas puede considerarse comom un contrato de servicios entre dos aplicaciones.
+E ste contrato define como se comunica entre si mediante solicitudes y respuestas. La documentacion de su API contiene informacion sobre como los desarrolladores deben estructurar esas solicitudes y respuetas.
+
+    COMO FUNCIONAN LAS API?
+
+La arquitectura de las API suele explicarse en termino de cliente y servidor. La apricacion que envia la de datos meteorologicos del instituto es el servidor y la aplicacion movil es el cliente.
+Las API pueden funcionar de cuatro maneras diferentes, segun el momento y elmotivo de su creacion.
+
+    API DE SOAP
+
+Estas API  utilizan el protocoloco simple de acceso a objetos. El cliente y el seridor intecambian mjs mediante XML. Se trata de una API menos flexibles que era mas mas popular en el pasado.
+
+    API de RPC
+
+Estas API se denominan llamadas a procedimientos remotos. El cliente completa una función (o procedimiento) en el servidor, y el servidor devuelve el resultado al cliente.
+
+API de WebSocket
+La API de WebSocket es otro desarrollo moderno de la API web que utiliza objetos JSON para transmitir datos. La API de WebSocket admite la comunicación bidireccional entre las aplicaciones cliente y el servidor. El servidor puede enviar mensajes de devolución de llamada a los clientes conectados, por lo que es más eficiente que la API de REST.
+
+API de REST
+Estas son las API más populares y flexibles que se encuentran en la web actualmente. El cliente envía las solicitudes al servidor como datos. El servidor utiliza esta entrada del cliente para iniciar funciones internas y devuelve los datos de salida al cliente. Veamos las API de REST con más detalle a continuación.
+
+¿Qué son las API de REST?
+REST significa transferencia de estado representacional. REST define un conjunto de funciones como GET, PUT, DELETE, etc. que los clientes pueden utilizar para acceder a los datos del servidor. Los clientes y los servidores intercambian datos mediante HTTP.
+
+La principal característica de la API de REST es que no tiene estado. La ausencia de estado significa que los servidores no guardan los datos del cliente entre las solicitudes. Las solicitudes de los clientes al servidor son similares a las URL que se escriben en el navegador para visitar un sitio web. La respuesta del servidor son datos simples, sin la típica representación gráfica de una página web.
+
+¿Qué es una API web?
+Una API web o API de servicios web es una interfaz de procesamiento de aplicaciones entre un servidor web y un navegador web. Todos los servicios web son API, pero no todas las API son servicios web. La API de REST es un tipo especial de API web que utiliza el estilo arquitectónico estándar explicado anteriormente.
+
+Los diferentes términos relacionados con las API, como API de Java o API de servicios, existen porque históricamente las API se crearon antes que la World Wide Web. Las API web modernas son API de REST y los términos pueden utilizarse indistintamente.
+
+¿Qué son las integraciones de las API?
+Las integraciones de las API son componentes de software que actualizan automáticamente los datos entre los clientes y los servidores. Algunos ejemplos de integraciones de las API son la sincronización automática de datos en la nube desde la galería de imágenes de su teléfono o la sincronización automática de la hora y la fecha en su laptop cuando viaja a otra zona horaria. Las empresas también pueden utilizarlas para automatizar de manera eficiente muchas funciones del sistema.
+
+
+¿Qué es un punto de conexión de la API y por qué es importante?
+Los puntos de conexión de las API son los últimos puntos de contacto del sistema de comunicación de las API. Se trata de las URL de servidores, servicios y otras ubicaciones digitales específicas desde las que se envía y recibe información entre sistemas. Los puntos de conexión de las API son fundamentales para las empresas por dos motivos principales: 
+
+1. Seguridad
+Los puntos de conexión de las API hacen que el sistema sea vulnerable a los ataques. La supervisión de las API es crucial para evitar su uso indebido.
+
+2. Rendimiento
+Los puntos de conexión de las API, especialmente los de alto tráfico, pueden provocar cuellos de botella y afectar al rendimiento del sistema.
+
+¿Cómo crear una API?
+Se requiere la debida diligencia y esfuerzo para crear una API con la que otros desarrolladores quieran trabajar y en la que confíen. Los siguientes son los cinco pasos necesarios para un diseño de API de alta calidad:
+
+1. Planificación de la API 
+Las especificaciones de la API, como OpenAPI, proporcionan el esquema para el diseño de su API. Es mejor pensar en los diferentes casos de uso por adelantado y asegurarse de que la API cumple con los estándares de desarrollo actuales.
+
+2. Creación de la API
+ Los diseñadores de API crean prototipos de API mediante código reutilizable. Una vez probado el prototipo, los desarrolladores pueden personalizarlo a las especificaciones internas.
+
+3. Prueba de la API  
+Las pruebas de la API son las mismas que las del software y deben hacerse para evitar errores y defectos. Las herramientas de pruebas de la API pueden utilizarse para reforzar la prueba de la API contra los ciberataques.
+
+4. Documentación de la API  
+Aunque las API son explicativas, la documentación de las mismas sirve de guía para mejorar su uso. Las API bien documentadas que ofrecen una gama de funciones y casos de uso tienden a ser más populares en una arquitectura orientada a servicios.
+
+5. Comercialización de la API 
+Así como Amazon es un mercado en línea para la venta minorista, los mercados de API existen para que los desarrolladores compren y vendan otras API. Publicar su API puede permitirle monetizarla.
+
